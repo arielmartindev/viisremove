@@ -76,12 +76,12 @@
     action="https://api.cloudinary.com/v1_1/arielmartindev/image/upload"
 >
     {#if $imageStatus === ImageStatus.READY}
-        <button
+        <!-- <button
             class="font-bold pointer-event-none bg-blue-600 rounded-full text-bold text-white text-xl px-6 py-2"
         >
             Upload files
-        </button>
-        <strong class="text-lg mt-4 text-gray-800">or drop a file</strong>
+        </button> -->
+        <strong class="text-lg mt-4 text-gray-800">arrastre su imagen aquí</strong>
     {/if}
 
     {#if $imageStatus === ImageStatus.UPLOADING}
